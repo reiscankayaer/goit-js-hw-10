@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 2 - Promise Üreteci</title>
+    <style>
+      /* Forma biraz makyaj yapalım */
+      .form { display: flex; flex-direction: column; gap: 16px; max-width: 300px; margin: 20px; font-family: sans-serif; }
+      fieldset { display: flex; gap: 10px; padding: 10px; }
+      button { padding: 8px 16px; cursor: pointer; }
+    </style>
+    <script type="module" crossorigin src="/goit-js-hw-10/02-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvPDDfy5.css">
+  </head>
+  <body>
+    <p><a href="index.html">Geri dön</a></p>
+
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+
+  </body>
+</html>

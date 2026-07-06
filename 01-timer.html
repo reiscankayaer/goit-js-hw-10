@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 1 - Geri Sayım Zamanlayıcı</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/01-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvPDDfy5.css">
+  </head>
+  <body>
+    <p><a href="index.html">Geri dön</a></p>
+
+    <input type="text" id="datetime-picker" />
+    <button type="button" data-start disabled>Start</button>
+
+    <div class="timer" style="display: flex; gap: 20px; margin-top: 20px; font-family: monospace; font-size: 24px;">
+      <div class="field" style="display: flex; flex-direction: column; align-items: center;">
+        <span class="value" data-days>00</span>
+        <span class="label" style="font-size: 12px; text-transform: uppercase;">Days</span>
+      </div>
+      <div class="field" style="display: flex; flex-direction: column; align-items: center;">
+        <span class="value" data-hours>00</span>
+        <span class="label" style="font-size: 12px; text-transform: uppercase;">Hours</span>
+      </div>
+      <div class="field" style="display: flex; flex-direction: column; align-items: center;">
+        <span class="value" data-minutes>00</span>
+        <span class="label" style="font-size: 12px; text-transform: uppercase;">Minutes</span>
+      </div>
+      <div class="field" style="display: flex; flex-direction: column; align-items: center;">
+        <span class="value" data-seconds>00</span>
+        <span class="label" style="font-size: 12px; text-transform: uppercase;">Seconds</span>
+      </div>
+    </div>
+
+  </body>
+</html>
